@@ -120,9 +120,9 @@ This test passes if the brand has been set.
 👉 For this assignment, you’ll mostly be using `assertEquals` and `assertTrue`, with `assertNotNull` coming in handy when checking that objects (like your `Television`) are created properly.
 
 ---
-## 📺 Your Task: Build Television and Remote objects
+## 📺 Your Task: Build Television and RemoteControl objects
 
-You will create two Java classes: `Television` and `Remote` (note: the files already exist within the src/main directory; your job is to implement these classes according to the following instructions).
+You will create two Java classes: `Television` and `RemoteControl` (note: the files already exist within the src/main directory; your job is to implement these classes according to the following instructions).
 
 ### 1. `Television` class
 Navigate to the `src/main/java/apcsa/githubtrack/Television.java` file and implement the class to meet the following requirements:
@@ -133,8 +133,8 @@ Navigate to the `src/main/java/apcsa/githubtrack/Television.java` file and imple
   - `getChannels()` → return **3 channels of your choice** to the console as Strings
   - Appropriate getter/setter methods for each attribute of the TV object
 
-### 2. `Remote` class
-Navigate to the `src/main/java/apcsa/githubtrack/Remote.java` file and implement the class to meet the following requirements:
+### 2. `RemoteControl` class
+Navigate to the `src/main/java/apcsa/githubtrack/RemoteControl.java` file and implement the class to meet the following requirements:
 - Attributes:
   - `tv` → A `Television` object, representing which TV this remote controls
   - `charged` → A numerical variable representing the battery level (0 to 100)
@@ -156,7 +156,7 @@ Navigate to the `src/main/java/apcsa/githubtrack/Remote.java` file and implement
 You will write **JUnit tests** located in the `src/test/java/apcsa/githubtrack/AppTest.java` file.
 
 ### Tests to Implement:
-- Test that a new `Remote` starts with the correct TV reference
+- Test that a new `RemoteControl` starts with the correct TV reference
 - Test that `charge()` correctly increases the battery by the amount specified in the parameters
 - Test that `charge()` caps at 100
 - Test that `turnOn()` only works if charged > 0
